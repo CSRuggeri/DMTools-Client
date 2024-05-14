@@ -1,0 +1,27 @@
+.navbar  {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white; /* You can adjust the text color */
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  /* Navigation Bar Links Hover Effect */
+  .navbar :hover {
+    background-color: #ddd; /* You can adjust the hover background color */
+    color: black; /* You can adjust the hover text color */
+  }
+  
+  /* Active Link Style */
+  .navbar.active {
+    background-color: #007bff; /* You can adjust the active link background color */
+    color: white; /* You can adjust the active link text color */
+  }
+  
+  /* Add some padding to the page content to prevent overlapping with the navbar */
+  .page-content {
+    padding-top: 60px; /* Adjust as needed based on the height of your navbar */
+  }
